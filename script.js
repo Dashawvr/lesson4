@@ -112,10 +112,10 @@ function getMinOfArray(numArray1) {
 console.log(getMinOfArray(numArray1));
 
 // // TASK 10
-// let total = [0, 1013, -98, 3,"124",true].reduce(function(a, b) {
-//     return a + b;
-// });
-// console.log(total);
+let total = [0, 1013, -98, 3,"124",true].reduce((a, b)=> {
+    return a + b;
+});
+console.log(total);
 
 // TASK 11
 // const average = list => list.reduce((p, c) => p + c) / list.length;
