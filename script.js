@@ -44,16 +44,38 @@
 
 //TASK 5
 //створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
+//  кастильний варік
 // function minmax () {
 //     let s = 0;
 //     let g = 0;
 //     for (let i = 0; i < arguments.length; i++) {
 //         s = Math.min(arguments[i]);
 //     }
-//     return s
+//     return s;
 // }
 // console.log(minmax(9410,15,34,0));
 // console.log(Math.max(minmax(2,34,3543,5435)));
+/// як продвинутий варіант
+// function minmax () {
+//     console.log(Math.max(...arguments));
+//     return Math.min(...arguments);
+// }
+//
+// console.log(minmax(1, 2, 3,4, 5, 54, 2, 45));
+// а це робоча тєма
+// function minmax() {
+//         let max = arguments[0];
+//         let min = arguments[0];
+//         for (let smth of arguments) {
+//                 if (smth > max) max = smth;
+//                 if (smth < min) min = smth;
+//         }
+//         console.log(min);
+//         console.log(max);
+//         return min;
+// }
+// minmax(20290,30944,0,93844,1,-3);
+
 
 // якась там таска не знаю яка може я ї сама придумала
 // function random(min,max) {
@@ -112,17 +134,18 @@
 // }
 // func(user);
 
-// TASK 14
+// TASK 14   !
 // let array1 = [1,2,3,4,5,6,7,8,9];
 // let array2 = [4,67,765,33,377,8,79,1,6];
 // function s() {
 //     let array3 =[];
 //     for (let i = 0; i < array1.length; i++) {
 //     if (array1.id === array2.id) {
-//         array3 = array1[i]+array2[i];
-//         console.log(array3);
+//         array3.push(array1[i]+array2[i]);
+//
 //     }
 //     }
+//     console.log(array3);
 // }
 // s();
 
