@@ -77,7 +77,7 @@
 // minmax(20290,30944,0,93844,1,-3);
 
 
-// якась там таска не знаю яка може я ї сама придумала
+//якась там таска не знаю яка може я ї сама придумала
 // function random(min,max) {
 // let rand = min - 0.5 + Math.random() * (max - min -1);
 // rand = Math.round(rand);
@@ -86,18 +86,32 @@
 // 6- repeat
 //TASK 7
 //
-// function getMaxOfArray(numArray) {
-//     console.log( Math.max.apply(null, numArray));
-//     return Math.max.apply(null, numArray);
-// }
-// getMaxOfArray([12,34,65478,7473,626]);
-// //TASK 8
-// function getMinOfArray(numArray) {
-//     console.log( Math.min.apply(null, numArray));
-//     return Math.min.apply(null, numArray);
-// }
-// getMinOfArray([12,34,65478,7473,626]);
-// TASK 10
+let numArray= [12,34,65478,7473,626];
+function getMaxOfArray(numArray) {
+    let max = numArray[0];
+    for (const arr of numArray) {
+        if(arr > max){
+            max = arr;
+        }
+    }
+    return max;
+}
+console.log(getMaxOfArray(numArray));
+
+//TASK 8
+let numArray1 = [12,34,65478,7473,626];
+function getMinOfArray(numArray1) {
+    let min = numArray1[0];
+    for (const arr1 of numArray1) {
+        if(arr1 < min){
+            min = arr1;
+        }
+    }
+    return min;
+}
+console.log(getMinOfArray(numArray1));
+
+// // TASK 10
 // let total = [0, 1013, -98, 3,"124",true].reduce(function(a, b) {
 //     return a + b;
 // });
@@ -135,19 +149,19 @@
 // func(user);
 
 // TASK 14   !
-let array1 = [1,2,3,4,5,6,7,8,9];
-let array2 = [4,67,765,33,377,8,79,1,6];
-function s() {
-    let array3 =[];
-    for (let i = 0; i < array1.length; i++) {
-    if (array1.id === array2.id) {
-        array3.push(array1[i]+array2[i]);
-
-    }
-    }
-    console.log(array3);
-}
-s();
+// let array1 = [1,2,3,4,5,6,7,8,9];
+// let array2 = [4,67,765,33,377,8,79,1,6];
+// function s() {
+//     let array3 =[];
+//     for (let i = 0; i < array1.length; i++) {
+//     if (array1.id === array2.id) {
+//         array3.push(array1[i]+array2[i]);
+//
+//     }
+//     }
+//     console.log(array3);
+// }
+// s();
 
 // Task ***
 //приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
