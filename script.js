@@ -1,11 +1,11 @@
 // LESSON4
 
 // TASK 1
-let sugar = ["HTML/CSS", "JavaScript", true, 123, 'Angular','Vue'];
-//як варіант для красивішого коду
-sugar.forEach( (item, index)=> {
-    console.log(index,item);
-});
+// let sugar = ["HTML/CSS", "JavaScript", true, 123, 'Angular','Vue'];
+// //як варіант для красивішого коду
+// sugar.forEach( (item, index)=> {
+//     console.log(index,item);
+// });
 //
 // function find() {
 //     console.log(sugar);
@@ -44,7 +44,7 @@ sugar.forEach( (item, index)=> {
 
 //TASK 5
 //створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
-//  кастильний варік
+//  неробочий код
 // function minmax () {
 //     let s = 0;
 //     let g = 0;
@@ -63,14 +63,14 @@ sugar.forEach( (item, index)=> {
 //
 // console.log(minmax(1, 2, 3,4, 5, 54, 2, 45));
 // а це робоча тєма
-// function minmax() {
+//  function minmax() {
 //         let max = arguments[0];
 //         let min = arguments[0];
 //         for (let smth of arguments) {
 //                 if (smth > max) max = smth;
 //                 if (smth < min) min = smth;
 //         }
-//         console.log(min);
+//
 //         console.log(max);
 //         return min;
 // }
