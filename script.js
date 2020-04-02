@@ -1,11 +1,11 @@
 // LESSON4
 
 // TASK 1
-//let sugar = ["HTML/CSS", "JavaScript", true, 123, 'Angular','Vue'];
-// як варіант для красивішого коду
-// fruits.forEach(function (item, index) {
-//     console.log(index,item);
-// });
+let sugar = ["HTML/CSS", "JavaScript", true, 123, 'Angular','Vue'];
+//як варіант для красивішого коду
+sugar.forEach( (item, index)=> {
+    console.log(index,item);
+});
 //
 // function find() {
 //     console.log(sugar);
@@ -135,19 +135,19 @@
 // func(user);
 
 // TASK 14   !
-// let array1 = [1,2,3,4,5,6,7,8,9];
-// let array2 = [4,67,765,33,377,8,79,1,6];
-// function s() {
-//     let array3 =[];
-//     for (let i = 0; i < array1.length; i++) {
-//     if (array1.id === array2.id) {
-//         array3.push(array1[i]+array2[i]);
-//
-//     }
-//     }
-//     console.log(array3);
-// }
-// s();
+let array1 = [1,2,3,4,5,6,7,8,9];
+let array2 = [4,67,765,33,377,8,79,1,6];
+function s() {
+    let array3 =[];
+    for (let i = 0; i < array1.length; i++) {
+    if (array1.id === array2.id) {
+        array3.push(array1[i]+array2[i]);
+
+    }
+    }
+    console.log(array3);
+}
+s();
 
 // Task ***
 //приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
